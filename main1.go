@@ -184,7 +184,7 @@ func createUser(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 
-	http.HandleFunc("/api/posts/users/", getPosts)
+	http.HandleFunc("/api/posts/users/", getPosts).  //The Id that we give while using a GET or POST request after '/' will be parsed and used for data retreival from mongodb
 	http.HandleFunc("/api/users/", getUser)
 	http.HandleFunc("/api/users", createUser)
 	http.HandleFunc("/api/posts/", getPost)
