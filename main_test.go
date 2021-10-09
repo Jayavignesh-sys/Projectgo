@@ -25,6 +25,6 @@ func TestCreateEndpoint(t *testing.T) {
 func TestCreateEndpoint(t *testing.T) {
     request, _ := http.NewRequest("POST", "/api/users/123")
     response := httptest.NewRecorder()
-	createUser(response,request)
+	getUser(response,request)
 	assert.Equal(t, 200, response.Code, "OK response is expected")
 }
