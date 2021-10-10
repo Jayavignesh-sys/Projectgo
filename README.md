@@ -1,6 +1,6 @@
 # Projectgo
 
-4 backend tasks of instagram API is implemented here 
+5 backend tasks of instagram API is implemented here 
 In Projectgo , create user, get user, create a post
 Get a post and get all posts of a user using GET and POST 
 Methods. The packages are executed using go and tested using
